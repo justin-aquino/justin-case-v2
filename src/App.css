@@ -52,3 +52,23 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  font-family: "Righteous", cursive;
+}
+
+#home {
+  background-color: var(--light-purple);
+  margin: 0;
+}
+.flex-with-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/public/custom.svg");
+  min-height: 100vh;
+  background-size: cover;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
