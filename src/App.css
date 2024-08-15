@@ -61,6 +61,10 @@ h1 {
   background-color: var(--light-purple);
   margin: 0;
 }
+#project {
+  width: 80%;
+  margin: 0 auto;
+}
 .flex-with-center {
   min-height: 100vh;
   display: flex;

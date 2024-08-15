@@ -5,6 +5,7 @@ import NaviBar from "./Components/layouts/Navibar/Navibar";
 import TechStack from "./Components/Pages/TechStack/TechStack";
 import ProjectList from "./Components/Pages/Portfolio/ProjectList";
 import Landing from "./Components/Pages/Landing/About/Landing";
+import About from "./Components/Pages/Landing/About/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
         <NaviBar />
         <h1>test</h1>
         <Landing />
+        <About />
         <div className="flex-with-center" id="tech-stack">
           <TechStack />
         </div>
@@ -22,14 +24,7 @@ function App() {
         <div id="project">
           <ProjectList />
         </div>
-        {/* 
-        
-        <div className="flex-with-center" id="tech-stack">
-          <TechStack />
-        </div>
-        <About />
-        
-         */}
+       
         <Footer />
       </div>
     </>

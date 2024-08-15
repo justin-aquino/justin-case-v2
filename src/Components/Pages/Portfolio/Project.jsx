@@ -10,7 +10,7 @@ const Project = ({ project }) => {
       >
         <a href={project.deployedLink} target="_blank" className="project-card">
           {" "}
-          <Card.Img src={project.image} />{" "}
+          <Card.Img src={project.image} width={200}/>{" "}
         </a>
         <Card.Body className="card-body">
           <Card.Title>
