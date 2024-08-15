@@ -6,7 +6,7 @@ const ProjectList = () => {
   const projects = [
     {
       name: "DupeFlix",
-      image: "katims.png",
+      image: "dupe.png",
       description:
         "Netflix Clone developed using TypeScript, Prisma, Tailwind CSS, and MongoDB",
       deployedLink: "https://dupeflix.vercel.app/auth",
